@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'simplesocial.urls'
+ROOT_URLCONF = 'socify.urls'
 
 TEMPLATES = [
     {
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'simplesocial.wsgi.application'
+WSGI_APPLICATION = 'socify.wsgi.application'
 
 
 # Database
